@@ -20,7 +20,8 @@ function App() {
     <Cabecalho logo='logo192.png' titulo="favorite.me" subtitulo="O melhor gerenciador de favoritos da Internet Brasileira!!!"/>
 
     <Conteudo/>
-    <Rodape titulo='Feito por alguém do IFRN'/>
+    <Rodape logo1='logo1.png' logo2='logo2.png' logo3='logo3.png' />
+    
     </>
   );
 }
