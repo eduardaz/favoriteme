@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Cabecalho from './componentes/Cabecalho'
+import Rodape from './componentes/Rodape'
+import Conteudo,{OlaMundo} from './componentes/Conteudo'
+
+/*
+Arquivo App JSX
+Componente Funcional = Porque é uma função
+*/
 
 function App() {
+
+  OlaMundo();
+/*Todo componente deve retornar um html entre parenteses*/
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+/*O react substitui className por class porque class é uma palavra reservada do JS*/
+    <>
+   
+    <Cabecalho logo='logo192.png' titulo="favorite.me" subtitulo="O melhor gerenciador de favoritos da Internet Brasileira!!!"/>
+
+    <Conteudo/>
+    <Rodape titulo='Feito por alguém do IFRN'/>
+    </>
   );
 }
 
 export default App;
+
+

@@ -1,0 +1,17 @@
+.Cabecalho{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: palevioletred;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.subtitulo {
+    font:2rem
+}
