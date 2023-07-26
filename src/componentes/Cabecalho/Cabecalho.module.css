@@ -1,17 +1,29 @@
-.Cabecalho{
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.cabecalho{
     display: flex;
     justify-content: space-around;
+    background-color: rgb(254, 255, 224);
 }
 
+.imagem{
+    width:10%;
+    display: flex;
+    justify-content: left;
+
+}
 .titulo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Pacifico', cursive;
     font-size: 3rem;
     color: palevioletred;
     display: flex;
     justify-content: center;
     margin-right: 20px;
+    padding: auto;
 }
 
 .subtitulo {
-    font:2rem
+    font:2rem; 
+    display: flex;
+    justify-content: space-between;
 }

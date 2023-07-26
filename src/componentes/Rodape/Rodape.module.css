@@ -1,12 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 .Rodape {
-    display: flex;
-    justify-content: flex-end;
-gap:5px
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  align-items: center;
+  padding-bottom: 2.5rem;
+  background-color: rgb(254, 255, 224);
+  gap: 5px;
+  bottom: 0;
+  width: 100%;
 }
 
-img  {
-    justify-content: right;
-    width: 25px;
-    right: 15px;
+img {
+  justify-content: right;
+  width: 25px;
+  right: 15px;
+}
 
+h2 {
+  font-family: "Pacifico", cursive;
+  justify-content: left;
+  position: absolute;
+  width: 2%;
+  right: 15%;
 }
