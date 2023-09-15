@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
 
-export default function Conteudo() {
+const Conteudo = () => {
   return (
-    <div>Conteudo</div>
-  )
-}
+    <div>
+      Conteudo
+      <form onSubmit={()=>alert("Favorito salvo")}> 
+      <label> Nome do Site </label>
+          <input name="nome-site"></input>
+      <label> URL </label>
+        <input name='url'></input>
+      </form>
+    </div>
+  );
+};
 
-export function OlaMundo(){
-    console.log("Ola mundo")
-}
+export default Conteudo;
