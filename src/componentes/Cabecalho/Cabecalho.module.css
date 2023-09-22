@@ -36,19 +36,29 @@
     padding-top: 2px;
 }
 
+
+
+
+
 .lista {
     font-family: 'Pacifico', cursive;
     color: palevioletred;
-    flex-direction: initial;
+    display: flex; 
+    margin: 25px;
 }
 
 ul {
     font-family: 'Pacifico', cursive;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0;
+    flex-direction: initial;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+ 
+     
 }
 
 ol {
-    padding: 0px;
+    padding: 0 0 0 0;
+  
+
 }

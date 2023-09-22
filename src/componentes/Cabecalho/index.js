@@ -10,12 +10,13 @@ export default function Cabecalho(props) {
     <p className={Style.titulo} >{props.titulo}</p>
     <p className={`${Style.subtitulo} ${Style.subtitulo}`}>{props.subtitulo}</p>
 
-     
+     <div className={Style.lista}>
         <ul>
           <ol>Duda linda</ol>
-          <ol>Duda olnda</ol>
-          <ol>Duda olnda</ol>
+          <ol>Duda linda</ol>
+          <ol>Duda linda</ol>
         </ul>
+        </div>
         
       
 
