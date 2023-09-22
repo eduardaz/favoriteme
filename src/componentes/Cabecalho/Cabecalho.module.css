@@ -18,12 +18,37 @@
     color: palevioletred;
     display: flex;
     justify-content: center;
-    margin-right: 20px;
+    margin-right: 0px;
     padding: auto;
+    text-align: center;
 }
 
 .subtitulo {
-    font:2rem; 
+    font-family: 'Pacifico', cursive;
+    color: palevioletred;
+    font-size: 25px; 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0px;
+    padding: auto;
+    padding-top: 2px;
+}
+
+.lista {
+    font-family: 'Pacifico', cursive;
+    color: palevioletred;
+    flex-direction: initial;
+}
+
+ul {
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+ol {
+    padding: 0px;
 }

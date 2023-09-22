@@ -17,7 +17,7 @@ function App() {
 /*O react substitui className por class porque class é uma palavra reservada do JS*/
     <>
    
-    <Cabecalho logo='logo512.png' titulo="favorite.me"/>
+    <Cabecalho logo='logo512.png' titulo="favorite.me" subtitulo='Aqui você faz a escolha certa!'/>
     <Conteudo/>
 
     <Rodape database="dwqqweww" logo1='logo1.png' logo2='logo2.png' logo3='logo3.png' />
