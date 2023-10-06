@@ -5,7 +5,8 @@
   justify-content: flex-end;
   position: absolute;
   align-items: center;
-  padding-bottom: 2.5rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
   background-color: rgb(254, 255, 224);
   gap: 5px;
   bottom: 0;
@@ -22,7 +23,10 @@ h2 {
   font-family: "Pacifico", cursive;
   justify-content: left;
   position: absolute;
+  display: flex;
+  align-items: flex-end;
   width: 2%;
   right: 15%;
   color: palevioletred;
+  margin: 25px;
 }
