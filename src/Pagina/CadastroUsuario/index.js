@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Styles from "./CadatroUsuario.module.css";
+
 
 const CadastroUsuario = () => {
   const [Email, setEmail] = useState("");
@@ -7,12 +7,7 @@ const CadastroUsuario = () => {
   const [Senha, setSenha] = useState("");
   const [ConfirmaçãoSenha, setConfirmaçãoSenha] = useState("");
 
-  function salvarSenha(value) {
-    setNome(value);
-    setEmail(value);
-    setSenha(value);
-    setConfirmaçãoSenha(value);
-  }
+
 
   function CadastroUsuario(Nome, Email, Senha) {
     let usuario = (Nome, Email, Senha);
@@ -20,7 +15,7 @@ const CadastroUsuario = () => {
   }
 
   function validar(Senha, ConfirmaçãoSenha) {
-    if (Senha != ConfirmaçãoSenha) {
+    if (Senha !== ConfirmaçãoSenha) {
       alert("Senha errada!");
     } else {
       CadastroUsuario(Email, Nome, Senha);
